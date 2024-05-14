@@ -1,7 +1,7 @@
-package FriendControllers;
+package com.example.springbootinternz.friendControllers;
 
-import Service.FriendService;
-import model.Friend;
+import com.example.springbootinternz.service.FriendService;
+import com.example.springbootinternz.model.Friend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -28,7 +28,7 @@ public class FriendControllers {
     }
 
     @DeleteMapping("/friends/{id}/delete")
-    public void deleteFriend(Integer Id) {
+    public void deleteFriend(Integer Id, @PathVariable String id) {
         friendService.deleteFriend(Id);
     }
 }
