@@ -1,5 +1,7 @@
-package com.example.springbootinternz;
+package FriendControllers;
 
+import Service.FriendService;
+import model.Friend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

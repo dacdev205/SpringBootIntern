@@ -1,5 +1,7 @@
-package com.example.springbootinternz;
+package Service;
 
+import Repository.FriendRepository;
+import model.Friend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

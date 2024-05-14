@@ -1,5 +1,6 @@
-package com.example.springbootinternz;
+package Repository;
 
+import model.Friend;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
